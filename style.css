@@ -26,8 +26,8 @@
     font-style: italic;
     text-align: center;
     /*arreglos js*/
-    margin: 0 auto!important; */
-   animation: blink .5s   infinite alternate
+    margin: 0 auto!important; 
+   animation: blink .5s   infinite alternate;
   }
   .row h1 {
     font-size: 60px;
