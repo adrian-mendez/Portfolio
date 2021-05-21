@@ -168,6 +168,7 @@
     height: 350px;
     background-color: var(--main-gray);
     color: white;
+    
      
   }
   
@@ -196,6 +197,9 @@
   @media (max-width: 800px){
     .btnC {
       left: 80px;
+    }
+    #contacto {
+      width: 375px;
     }
   }
   
