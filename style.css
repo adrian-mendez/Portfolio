@@ -22,7 +22,7 @@
   }
   #welcome-section p {
      font-size: 30px;
-    font-weight: 200;
+    font-weight: 300;
     font-style: italic;
     text-align: center;
     /*arreglos js*/
@@ -70,8 +70,8 @@
   #welcome-section {
    padding-top: 150px;
     height: 400px;
-    background-color: var(--main-gray);
-    color: white;
+    background: url('img/welcome.jpg') no-repeat center center/cover;
+    color: black;
   }
   
   @media (max-width: 800px){
@@ -93,6 +93,7 @@
     padding-top: 125px;
     height: 450px;
     text-align: center;
+    background: url('img/sobreMi.jpg') center;
     
   }
   
@@ -115,7 +116,8 @@
   /*trabajos*/
   #trabajos {
     height: 1000px;
-    background-color: var(--main-azul);
+    background: url('img/fondoTrabajos.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
     padding-top: 90px;
   }
   #trabajos h1 {
@@ -168,7 +170,7 @@
     height: 350px;
     background-color: var(--main-gray);
     color: white;
-    
+    width: 1533px;
      
   }
   
@@ -199,7 +201,7 @@
       left: 80px;
     }
     #contacto {
-      width: 375px;
+      width: 380px;
     }
   }
   
