@@ -106,6 +106,7 @@ h1, h2 {
   font-weight: 300;
   font-style: italic;
   text-align: center;
+
   /*arreglos js*/
   margin: 0 auto!important;
   animation: blink .5s infinite alternate;
@@ -133,7 +134,9 @@ h2 {
   height: 60px;
   flex-direction: row-reverse;
 }
-
+.bg-light {
+  background-color: var(--main-verdeazulado);
+}
 .bg-color {
   background-color: var(--main-verdeazulado);
 }
@@ -150,7 +153,7 @@ h2 {
 
 @media (max-width: 800px) {
   #navbarNav {
-    height: 140px;
+    height: 180px;
   }
   .nav-link {
     margin-left: 30px;
