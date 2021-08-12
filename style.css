@@ -258,20 +258,30 @@ div.card-body {
 /*contacto*/
 
 #contacto {
-  padding-top: 80px;
-  height: 350px;
+  padding-top: 20px;
+  height: 250px;
   background-color: var(--main-gray);
   color: white;
-  width: 1533px;
+  width: 100%;
+   
 }
-
+.centrar {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+   
+}
+.centrar > h1 {
+  margin-bottom: 50px;
+}
+ 
 .btnC {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 25px;
   text-shadow: 2px 2px 1px #1f1f1f;
   color: white;
-  position: relative;
-  left: 300px;
+   
+   
 }
 
 .btnC:hover {
@@ -280,15 +290,24 @@ div.card-body {
 }
 
 .btnC i {
-  margin-right: 10px;
-  font-size: 45px;
+  margin-left: 5px;
+  font-size: 25px;
 }
 
 @media (max-width: 800px) {
   .btnC {
     left: 80px;
   }
+  .centrar {
+    display: flex;
+    flex-direction: column;
+     
+
+  }
+  .centrar a{
+    margin-top: 10px;
+  }
   #contacto {
-    width: 380px;
+    height: 350px;
   }
 }
