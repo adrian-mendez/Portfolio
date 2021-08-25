@@ -222,6 +222,7 @@ h2 {
 .card img {
   height: 250px;
   width: 100%;
+  object-fit: cover;
 }
 
 .card p {
