@@ -19,9 +19,4 @@ function typingEffect(element,speed){
 const p=document.querySelector('p');
 typingEffect(p,150);
 
-function enProceso() {
-  alert("Pagina en proceso, podes ver avances en Github")
-}
-function inProcess() {
-  alert("Page in process, you can see the progress on Github")
-}
+ 
